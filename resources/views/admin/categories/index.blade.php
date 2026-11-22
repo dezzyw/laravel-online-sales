@@ -3,6 +3,7 @@
 @section('title','Kategori')
 
 @section('content')<h1>Kategori</h1>
+<link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
 <div class="card">
 <form method="POST" action="{{ route('admin.categories.store') }}">@csrf<label>Nama Kategori<input class="input"

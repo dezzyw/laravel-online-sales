@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="{{ asset('css/style.css') }}">
 @extends('layouts.admin')
 
 @section('title','Edit Produk')
@@ -12,4 +13,3 @@
 
 </div>@endsection
 
- 

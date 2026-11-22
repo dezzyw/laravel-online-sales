@@ -1,7 +1,7 @@
 <!DOCTYPE html><html lang="id"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>@yield('title','Dashboard') · Admin Ruang Belanja</title>
-<link rel="stylesheet" href="{{ asset('css/store.css') }}"></head><body>
+<link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
 <div class="admin-wrap">
     <aside class="admin-side">

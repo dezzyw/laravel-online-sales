@@ -1,5 +1,10 @@
-@section('title','Ekspedisi')
-@section('content')<h1>Layanan Ekspedisi</h1>
+@extends('layouts.admin')
+
+@section('title', 'Ekspedisi')
+
+@section('content')
+<link rel="stylesheet" href="{{ asset('css/style.css') }}">
+<h1>Layanan Ekspedisi</h1>
 <div class="card">
 <form method="POST" action="{{ route('admin.shipping.store') }}">@csrf<div class="row">
 <label>Kurir<input class="input" name="courier" required>
@@ -44,4 +49,5 @@ btn-danger">Nonaktifkan</button>
 </form>
 </td>
 </tr>@endforeach</table></div>
-</div>@endsection
+</div>
+@endsection

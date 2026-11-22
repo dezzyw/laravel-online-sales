@@ -1,5 +1,6 @@
 @extends('layouts.app')
 @section('title','Checkout')
+<link rel="stylesheet" href="{{ asset('css/style.css') }}">
 @section('content')<h1>Checkout</h1>
 <div class="checkout-layout">
 <div class="card">

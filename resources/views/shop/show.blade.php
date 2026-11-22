@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="{{ asset('css/style.css') }}">
 @extends('layouts.app')
 
 @section('title',$product->name)
@@ -32,4 +33,4 @@ method="POST" action="{{ route('cart.store',$product) }}">@csrf<label>Jumlah<inp
 
 </div>
 
-</div>@endsection 
+</div>@endsection
