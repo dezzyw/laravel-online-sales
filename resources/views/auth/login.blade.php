@@ -3,6 +3,7 @@
 @section('title','Masuk')
 
 @section('content')<div class="card auth-card">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <span class="eyebrow">SELAMAT DATANG KEMBALI</span>
     <h1>Masuk ke akunmu</h1>
     <p class="muted" style="text-align:left">Lanjutkan belanja dan pantau pesanan dengan mudah.</p>

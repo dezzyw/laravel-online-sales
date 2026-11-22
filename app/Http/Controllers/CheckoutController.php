@@ -42,6 +42,7 @@ class CheckoutController extends Controller
             'items' => $items,
             'subtotal' => $subtotal,
             'shippingServices' => ShippingService::where('is_active', true)->orderBy('courier')->get(),
+            'checkoutToken' => (string) Str::uuid(),
         ]);
     }
 

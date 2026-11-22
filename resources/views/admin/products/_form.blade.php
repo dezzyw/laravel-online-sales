@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="{{ asset('css/style.css') }}">
 <label>Kategori<select name="category_id" required>
 <option value="">Pilih</option>@foreach($categories as $category)<option value="{{ $category->id }}"
 @selected(old('category_id',$product->category_id??null)==$category->id)>{{ $category->name

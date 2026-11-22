@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="{{ asset('css/style.css') }}">
 @extends('layouts.admin')
 @section('title','Dashboard Admin')
 @section('content')<h1>Dashboard</h1>

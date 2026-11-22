@@ -3,6 +3,7 @@
 @section('title','Daftar')
 
 @section('content')
+<link rel="stylesheet" href="{{ asset('css/style.css') }}">
 <div class="card auth-card">
     <span class="eyebrow">MULAI DARI SINI</span>
     <h1>Buat akun belanja</h1>

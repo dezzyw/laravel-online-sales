@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="{{ asset('css/style.css') }}">
 @extends('layouts.admin')
 
 @section('title','Barang Masuk')
@@ -42,4 +43,3 @@ required>@foreach($products as $product)<option value="{{ $product->id }}">{{ $p
 
 </div>@endsection
 
- 

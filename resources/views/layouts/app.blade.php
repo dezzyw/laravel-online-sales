@@ -4,7 +4,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="Belanja kebutuhan sehari-hari dengan pilihan produk, stok yang jelas, dan pengiriman yang mudah.">
 <title>@yield('title','Katalog') · Ruang Belanja</title>
-<link rel="stylesheet" href="{{ asset('css/store.css') }}">
+<link rel="stylesheet" href="{{ asset('css/style.css') }}">
 </head>
 <body>
 <div class="top-note">Pilihan sederhana. Belanja lebih nyaman.</div>

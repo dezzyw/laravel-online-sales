@@ -1,5 +1,6 @@
 @extends('layouts.app')
 @section('title','Keranjang')
+<link rel="stylesheet" href="{{ asset('css/style.css') }}">
 @section('content')<h1>Keranjang</h1>@if($items->isEmpty())<div class="card">Keranjang kosong. <a href="{{
 route('shop.index') }}">Belanja sekarang.</a>
 </div>@else<div class="table-scroll"><table>
