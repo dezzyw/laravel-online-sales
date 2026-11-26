@@ -7,7 +7,16 @@
     root * /app/public
     encode zstd br gzip
 
+    # Tambahkan header agar Caddy mengenali HTTPS dari proxy Vercel
+    header {
+        X-Forwarded-Proto "https"
+        X-Forwarded-Host {host}
+    }
+
+    # Layani file statis (CSS, JS, gambar) secara langsung
+    file_server
+
     php_server {
         try_files {path} index.php
     }
-} 
+}
